@@ -10,7 +10,11 @@ class HelloWorldApplication {
 		SpringApplication app = new SpringApplication(HelloWorldApplication.class);
 		app.setDefaultProperties(Collections
 				.singletonMap("server.port", "8084"));
+		//Test
 		app.run(args);
 	}
 
 }
+
+
+
